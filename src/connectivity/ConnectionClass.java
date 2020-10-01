@@ -19,7 +19,7 @@ public class ConnectionClass {
         }catch(Exception e){
             e.printStackTrace();
         }
-
+       System.out.println("Connection success");
         return connection;
     }
 }
